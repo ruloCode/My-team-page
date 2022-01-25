@@ -8,7 +8,7 @@
 
 <div align="center">
   <h3>
-    <a href="https://rulocode.github.io/My-team-page/}">
+    <a href="https://rulocode.github.io/My-team-page/">
       Demo
     </a>
     <span> | </span>
