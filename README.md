@@ -23,7 +23,7 @@
 </div>
 
 <!-- TABLE OF CONTENTS -->
-
+[![wakatime](https://wakatime.com/badge/user/438a330e-6b52-4b08-9417-cdd9fc37a05a/project/9ef122b0-2bef-49f2-91a3-4dd129d42c2e.svg)](https://wakatime.com/badge/user/438a330e-6b52-4b08-9417-cdd9fc37a05a/project/9ef122b0-2bef-49f2-91a3-4dd129d42c2e)
 ## Table of Contents
 
 - [Overview](#overview)
@@ -36,7 +36,8 @@
 
 ## Overview
 
-![screenshot](https://user-images.githubusercontent.com/16707738/92399059-5716eb00-f132-11ea-8b14-bcacdc8ec97b.png)
+
+![image](https://user-images.githubusercontent.com/48034545/150904121-9cc39bc2-44e7-42b2-a4e1-61ef101c417a.png)
 
 Introduce your projects by taking a screenshot or a gif. Try to tell visitors a story about your project by answering:
 
