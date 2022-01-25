@@ -1,0 +1,138 @@
+/* stylelint-disable declaration-block-no-redundant-longhand-properties */
+:root {
+  /* fonts */
+  --font-primary: "Poppins", sans-serif;
+  --font-secondary: "PT Serif", sans-serif;
+  --just-black: #000;
+  --gray-1: #a9a9a9;
+  --just-white: #fff;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: var(--font-primary);
+  font-size: 62.5%;
+  background: #ffff;
+}
+
+body {
+  margin: 0 auto;
+  padding: 71px 12px;
+  height: auto;
+  min-height: 100vh;
+  max-width: 932px;
+}
+
+header {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin: 0 auto;
+  max-width: 932px;
+}
+
+header h1 {
+  margin-bottom: 38px;
+  font-family: var(--font-secondary);
+  font-size: 3.6rem;
+  line-height: 4.8rem;
+  color: var(--just-black);
+}
+
+.header-info {
+  max-width: 439px;
+}
+
+.header-info span {
+  margin-bottom: 10px;
+  font-weight: 600;
+  font-size: 1.8rem;
+  line-height: 2.7rem;
+  text-transform: uppercase;
+}
+
+.header-info p {
+  font-size: 14px;
+}
+
+main {
+  display: grid;
+  align-items: center;
+  grid-column-gap: 6px;
+  grid-row-gap: 40px;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 64px;
+  padding-bottom: 30px;
+  width: 100%;
+  min-height: 70%;
+}
+
+.card-container {
+  position: relative;
+  display: grid;
+  grid-template-columns: minmax(120px, 1fr) 20px;
+  padding-right: 16px;
+  width: 100%;
+}
+
+.mg-top {
+  position: relative;
+  top: 60px;
+}
+
+.card-container img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.card-container p {
+  font-weight: 600;
+  font-size: 1.4rem;
+  line-height: 2.1rem;
+}
+
+.text-lateral {
+  position: relative;
+}
+
+.card-container span {
+  position: absolute;
+  right: -6px;
+  top: 0;
+  font-family: var(--font-secondary);
+  font-size: 12px;
+  text-transform: uppercase;
+  writing-mode: vertical-lr;
+}
+
+footer {
+  margin-top: 40px;
+  padding-bottom: 24px;
+  font-weight: 700;
+  font-size: 1.4rem;
+  text-align: center;
+  color: #bdbdbd;
+}
+
+footer a {
+  color: #bdbdbd;
+}
+
+@media (min-width: 768px) {
+  main {
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-bottom: 120px;
+  }
+
+  .mg-top-d {
+    position: relative;
+    top: 120px;
+  }
+}
